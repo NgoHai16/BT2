@@ -1,0 +1,36 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header{
+    background-color: rgb(104, 103, 103);
+    height: 100px;
+}
+#header h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+#page-container #left{
+    float: left;
+    width: 250px;
+    height: 300px;
+    background-color: darkgray;
+}
+#page-container #left ul{
+    list-style: none;
+}
+#page-container #content{
+    float: right;
+    width: 740px;
+}
+#footer{
+    clear: both;
+    background-color: rgb(104, 103, 103);
+    color: white;
+    text-align: center;
+    height: 50px;
+    padding-top: 33px;
+}
